@@ -1,4 +1,4 @@
-// あなたが取得したAPIキーをここに貼り付け
+// AIzaSyBs3XUTIzBgSaRYy_LoMeBJ3_sgLlmRa5k
 const API_KEY = 'AIzaSyBs3XUTIzBgSaRYy_LoMeBJ3_sgLImRa5k'; 
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
