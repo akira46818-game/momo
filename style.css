@@ -66,3 +66,25 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+/* 自分の発言（右側に表示） */
+.user-msg {
+    background: #e1f5fe;
+    padding: 10px 15px;
+    border-radius: 15px 15px 0 15px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    margin-left: auto; /* 右寄せ */
+    font-size: 14px;
+}
+
+/* ももちゃんの発言（左側：既存のbot-msgを修正） */
+.bot-msg {
+    background: #ffe4e1;
+    padding: 10px 15px;
+    border-radius: 15px 15px 15px 0;
+    margin-bottom: 10px;
+    max-width: 80%;
+    margin-right: auto; /* 左寄せ */
+    font-size: 14px;
+    white-space: pre-wrap; /* 改行を反映させる */
+}
